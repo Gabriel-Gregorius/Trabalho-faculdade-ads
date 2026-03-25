@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Faculdade - Gabriel Gregorius</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .main-content {
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin: 0;
+            font-size: 24px;
+        }
+
+        h2 {
+            color: #666;
+            font-weight: 400;
+            margin: 5px 0 20px 0;
+            font-size: 18px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        .perfil-foto {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #1877F2;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .texto-bio {
+            text-align: justify;
+            line-height: 1.6;
+            color: #444;
+            margin-bottom: 30px;
+            font-size: 15px;
+        }
+
+        .container-social {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .botao-social {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            padding: 10px 18px;
+            border-radius: 50px;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        .botao-social:hover {
+            transform: translateY(-3px);
+            opacity: 0.9;
+        }
+
+        .botao-social i {
+            margin-right: 8px;
+            font-size: 18px;
+        }
+
+        .instagram {
+            background-color: #E1306C;
+        }
+
+        .facebook {
+            background-color: #1877F2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main-content">
+        <h1>Gabriel Gregorius de Souza</h1>
+        <h2>Biografia</h2>
+
+
+        <img src="https://ibb.co/QFcj5GtL" alt="Foto de Gabriel" class="perfil-foto">
+
+        <div class="texto-bio">
+            <p>
+                Escolhi o curso de Análise e Desenvolvimento de Sistemas motivado pela rapidez com que a tecnologia transforma o mundo. Sempre tive facilidade com lógica e curiosidade para entender como as soluções digitais são construídas, o que me trouxe para a área.
+            </p>
+            <p>
+                Meu objetivo é dominar as ferramentas de programação para criar projetos que facilitem a vida das pessoas. Estou focado em aprender e evoluir constantemente para me tornar um desenvolvedor preparado para os desafios do mercado.
+            </p>
+        </div>
+
+        <div class="container-social">
+            <a href="https://www.instagram.com" target="_blank" class="botao-social instagram">
+                <i class="fa-brands fa-instagram"></i> Instagram
+            </a>
+
+            <a href="https://www.facebook.com" target="_blank" class="botao-social facebook">
+                <i class="fa-brands fa-facebook-f"></i> Facebook
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
